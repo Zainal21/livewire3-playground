@@ -32,8 +32,8 @@ $posts = computed(function () {
 ?>
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-4">
+    <div class="row justify-content-center">
+        <div class="col-md-3 my-2 mx-2">
             <div class="card">
                 <div class="card-header">
                     <span>Basic Example (Increment)</span>
@@ -44,7 +44,7 @@ $posts = computed(function () {
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 my-2 mx-2">
             <div class="card">
                 <div class="card-header">
                     <span>Basic Example (UserCount)</span>
@@ -55,7 +55,7 @@ $posts = computed(function () {
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 my-2 mx-2">
             <div class="card">
                 <div class="card-header">
                     <span>Basic Example (Validation)</span>

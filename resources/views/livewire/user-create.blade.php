@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-10 my-4">
             <div class="card">
                 <div class="card-header">
                     Create a new User

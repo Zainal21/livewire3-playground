@@ -54,8 +54,12 @@
             </div>
         </div>
     </nav>
-    <div class="main my-5 p-3">
-        @yield('content')
+    <div class="main">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                @yield('content')
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
